@@ -1,0 +1,33 @@
+{
+    "name": "root/test_mvc",
+    "authors": [
+        {
+            "name": "kirya",
+            "email": "cloudkserg11@gmail.com"
+        }
+    ],
+    "autoload": {
+	    "psr-4": {"Src\\": "src/"}
+    },
+    "require": {
+        "zendframework/zend-diactoros": "^1.7",
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "vlucas/phpdotenv": "^2.4",
+        "monolog/monolog": "^1.23",
+        "php-di/php-di": "^5.4",
+        "psr/container": "^1.0",
+        "psr/log": "^1.0",
+        "hassankhan/config": "^0.11.2",
+        "tightenco/collect": "^5.5",
+        "twig/twig": "^2.4",
+        "middlewares/request-handler": "^1.0",
+        "equip/dispatch": "^2.0",
+        "psr/http-server-middleware": "^1.0",
+        "middlewares/fast-route": "^1.0",
+        "symfony/validator": "^3.4",
+        "gabordemooij/redbean": "^5.0",
+        "claviska/SimpleImage": "^3.3",
+        "middlewares/php-session": "^1.0"
+    }
+}

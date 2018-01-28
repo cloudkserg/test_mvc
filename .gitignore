@@ -1,0 +1,9 @@
+/vendor/
+runtime/logs
+runtime/cache
+runtime/storage
+public/images
+
+
+.env
+.idea
